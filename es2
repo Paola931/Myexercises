@@ -1,0 +1,11 @@
+public class MyClass {
+    public static void main(String args[]) {
+        char a = 'a';
+        char b = 'b';
+        String sum = "The_sum_of the_characters_is " + a + b;
+        
+        System.out.println( sum );
+        
+       
+    }
+}
