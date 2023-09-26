@@ -1,0 +1,12 @@
+public class es3 {
+        public static void main (String args[]) {
+            double x = 2.5;
+            double y = 5.2;
+            int sum = (int) x + (int) y;
+
+            System.out.println( sum );
+
+
+        }
+
+}
