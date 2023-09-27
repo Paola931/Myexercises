@@ -1,0 +1,15 @@
+public class es7 {
+    public static void main (String[] args){
+        double x = 15;
+        double y = 5;
+        double z = 3;
+
+        System.out.println(mediaDi(x,y,z));
+    }
+    public static double mediaDi (double x, double y, double z) {
+        double sum = x + y + z;
+        double media = sum / 3;
+        return media;
+
+    }
+}
