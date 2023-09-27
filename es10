@@ -1,0 +1,13 @@
+public class es10 {
+    public static void main (String[] args){
+        int x = 25;
+        int y = 28;
+        System.out.println("X value is:" + x );
+        System.out.println("Y value is:" + y);
+        System.out.println("Are X and Y unequal?"+ compNum(x,y));
+    }
+    public static boolean compNum (int x, int y) {
+        boolean oprt = x != y;
+        return oprt;
+    }
+}
