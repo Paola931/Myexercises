@@ -1,0 +1,13 @@
+public class es8 {
+    public static void main (String[] args){
+        int x = 15;
+        int y = 5;
+        int z = x +=3;
+        int a = y +=3;
+        int b = z * a;
+
+        System.out.println(b);
+    }
+
+
+}
