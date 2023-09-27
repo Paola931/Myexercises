@@ -1,0 +1,11 @@
+public class es4b {
+    public static void main (String args[]) {
+        char x = 'x';
+        char y = 'y';
+        int sum = x + y;
+
+        System.out.println( sum );
+
+
+    }
+}
