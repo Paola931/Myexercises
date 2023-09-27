@@ -1,0 +1,11 @@
+public class es4c {
+    public static void main (String[] args){
+        int x = 10;
+        int y = 20;
+        System.out.println(sum(x,y));
+    }
+    public static int sum (int x, int y){
+        int z = x + y;
+        return z;
+    }
+}
