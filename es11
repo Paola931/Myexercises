@@ -1,0 +1,13 @@
+public class es11 {
+    public static void main (String[] args){
+        char u = 'u';
+        char p = 'p';
+        System.out.println("U value is:" + u );
+        System.out.println("P value is:" + p);
+        System.out.println("Are U and P unequal? "+ compChar(u,p));
+    }
+    public static boolean compChar (char u, char p) {
+        boolean oprt = u != p;
+        return oprt;
+    }
+}
