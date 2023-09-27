@@ -1,0 +1,15 @@
+public class es9 {
+    public static void main (String[] args){
+        int num1 = 5;
+        int num2 = 9;
+        System.out.println(incAndMol(num1,num2));
+    }
+    public static int incAndMol (int num1, int num2){
+        int incA = num1 +=2;
+        int incB = num2 +=2;
+        int mol = incA * incB;
+        return mol;
+ 
+    }
+
+}
