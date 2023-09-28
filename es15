@@ -1,0 +1,17 @@
+public class es15 {
+    public static void main(String[] args){
+        String x = "Che bella giornata";
+        int strLen = x.length();
+        System.out.println(strLen);
+
+        if(strLen > 10){
+            System.out.println("Lunghezza maggiore di 10");
+        } else if (strLen < 10){
+            System.out.println("Lunghezza minore di 10");
+        } else if (strLen == 10){
+            System.out.println("Lunghezza pari a 10");
+        }
+
+
+    }
+}
