@@ -1,0 +1,27 @@
+public class es17 {
+    public static void main(String[] args){
+    char aritOper = '.';
+
+    switch (aritOper){
+        case '+' :
+            System.out.print("Addition");
+            break;
+        case '-' :
+            System.out.print("Subtraction");
+            break;
+        case '*' :
+            System.out.print("Multiplication");
+            break;
+        case '/' :
+            System.out.print("Division");
+            break;
+        case '%' :
+            System.out.print("Modulus");
+            break;
+        default :
+            if ((aritOper != '+') && (aritOper != '-') && (aritOper != '*') && (aritOper != '/')) {
+
+            }
+            System.out.print("Error - Arithmetic operator not found");
+    }
+    }
