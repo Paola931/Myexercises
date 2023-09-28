@@ -1,0 +1,16 @@
+public class es13 {
+    public static void main(String[] args) {
+        int num = 13;
+
+        System.out.println("The number is even? " + evOrOd(num));
+    }
+
+    public static boolean evOrOd(int num) {;
+        int last = num % 10;
+        boolean even = num % 2 == 0;
+        boolean odd = (last == 1) || (last == 3) || (last == 5) || (last == 7) || (last == 9);
+        boolean isEven = (even = true) && (odd == false);
+
+        return isEven;
+    }
+}
