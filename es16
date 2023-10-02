@@ -1,58 +1,33 @@
 public class es16 {
     public static void main(String[] args){
-        int x = 2;
+        int x = 7;
 
         switch(x){
             case 1:
-                xLunedì();
+                System.out.print("Lunedì");
                 break;
             case 2:
-                xMartedì();
+                System.out.print("Martedì");
                 break;
             case 3:
-                xMercoledì();
+                System.out.print("Mercoledì");
                 break;
             case 4:
-                xGiovedì();
+                System.out.print("Giovedì");
                 break;
             case 5:
-                xVenerdì();
+                System.out.print("Venerdì");
                 break;
             case 6:
-                xSabato();
+                System.out.print("Sabato");
                 break;
             case 7:
-                xDomenica();
+                System.out.print("Domenica");
                 break;
             default:
-                errore(x);
+                if(x > 7 && x < 1){
+                }
+                System.out.print("Errore");
         }
-    }
-    public static void xLunedì(){
-        System.out.print("Lunedì");
-    }
-    public static void xMartedì(){
-        System.out.print("Martedì");
-    }
-    public static void xMercoledì(){
-        System.out.print("Mercoledì");
-    }
-    public static void xGiovedì(){
-        System.out.print("Giovedì");
-    }
-    public static void xVenerdì(){
-        System.out.print("Venerdì");
-    }
-    public static void xSabato(){
-        System.out.print("Sabato");
-    }
-    public static void xDomenica(){
-        System.out.print("Domenica");
-    }
-    public static void errore(int x){
-        if(x > 7 && x < 1){
-        }
-        System.out.print("Errore");
-
     }
 }
