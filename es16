@@ -25,8 +25,6 @@ public class es16 {
                 System.out.print("Domenica");
                 break;
             default:
-                if(x > 7 && x < 1){
-                }
                 System.out.print("Errore");
         }
     }
