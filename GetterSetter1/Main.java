@@ -1,4 +1,4 @@
-package GetterSetter.GetterSetter1;
+package Myexercises.GetterSetter1;
 
 public class Main {
     public static void main(String[] args) {

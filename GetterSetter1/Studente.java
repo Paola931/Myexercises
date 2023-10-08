@@ -1,4 +1,4 @@
-package GetterSetter.GetterSetter1;
+package Myexercises.GetterSetter1;
 
 public class Studente {
     public String nome;
