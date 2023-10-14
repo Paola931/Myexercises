@@ -2,13 +2,16 @@
 public class es20 {
     public static void main (String []args){
        int partenza = 6;
-       int max = 3;
+       int max = 2;
        risultato(partenza,max);
+       //System.out.print(String.valueOf(max));
     }
-    public static void risultato(int partenza,int max){
-        for(int i = partenza;i >= max;i--){
-            System.out.println(i);
 
+    public static int risultato(int partenza,int max){
+        for(int i = max;i > 0 ;i--){
+            System.out.println(partenza);
+            partenza--;
         }
+        return partenza;
     }
 }
