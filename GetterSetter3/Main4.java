@@ -7,6 +7,10 @@ public class Main3 {
         Auto auto3 = new Auto("1984 cm3","S347PUV","Mercedes","CLS",10000,0.22);
         Carrello carrello = new Carrello(new Auto [] {auto1,auto2,auto3});
 
+        auto1.setPrezzo(7000);
+        auto2.setPrezzo(8000);
+        auto3.setPrezzo(12000);
+
         System.out.println("Il prezzo totale senza iva è:" + carrello.getPrezzoFinale(false));
         System.out.println("Il prezzo totale con iva inclusa è:" + carrello.getPrezzoFinale(true));
     }
